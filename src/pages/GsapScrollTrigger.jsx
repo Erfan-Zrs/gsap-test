@@ -18,12 +18,12 @@ const GsapScrollTrigger = () => {
           borderRadius: "100%",
           scale: 1.5,
           scrollTrigger: {
-            start: "bottom, bottom",
+            start: "top, bottom",
             trigger: box,
-            end: "top 20%",
+            end: "top 5%",
             scrub: true,
           },
-          ease: "power1.inOut",
+          // ease: "power1.inOut",
         });
       });
     },
